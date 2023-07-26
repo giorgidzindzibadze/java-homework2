@@ -60,6 +60,24 @@ public class Main {
         System.out.println(crcl9);
         System.out.println(crcl10);
         System.out.println(crcl11);
+
+
+
+        Figure rectangle = new Rectangle(7.0, 11.0);
+        Figure triangle = new Triangle(3.0, 4.0, 5.0, 2.0);
+
+        System.out.println("rectangle area: " + rectangle.getArea() );
+        System.out.println("rectangle perimeter: " + rectangle.getPerimeter());
+
+        System.out.println("triangle area: " + triangle.getArea());
+        System.out.println("triangle perimeter: " + triangle.getPerimeter());
+
+
+        Rectangle rect1 = new Rectangle(4.0, 10.0);
+        Rectangle rect2 = new Rectangle(5.0, 6.0);
+        HelperFunctions.compareRectangles(rect1, rect2);
+
+
     }
 
 
